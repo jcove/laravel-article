@@ -1,0 +1,13 @@
+{
+    "name": "jcove/laravel-article",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jcove\\Article\\ArticleServiceProvider"
+            ]
+        }
+    }
+}
