@@ -2,7 +2,9 @@
     "name": "jcove/laravel-article",
     "type": "library",
     "license": "MIT",
-    "require": {},
+    "require": {
+        "illuminate/support": "^5.1"
+    },
     "extra": {
         "laravel": {
             "providers": [
