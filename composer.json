@@ -9,5 +9,10 @@
                 "Jcove\\Article\\ArticleServiceProvider"
             ]
         }
+    },
+    "autoload": {
+        "psr-4": {
+            "Jcove\\Article\\": "src/"
+        }
     }
 }
