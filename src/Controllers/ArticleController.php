@@ -43,10 +43,13 @@ class ArticleController extends Controller
         }
     }
 
+    protected function beforeShow(){
+        $this->setTitle($this->model->title);
+    }
+
     protected function prepareSave(){
 
         $guard                                      =   Auth::guard() ? Auth::guard(): Auth::guard(config('restful.guard'));
-        dump(Auth::id());
         $this->model->author_id         =   $guard->id();
     }
 }
